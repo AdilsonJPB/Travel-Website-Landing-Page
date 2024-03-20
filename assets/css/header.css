@@ -1,0 +1,22 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__navegacao {
+    display: flex;
+    gap: 70px;
+}
+
+.navegacao__links {
+    gap: 30px;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+}
+
+.destaque {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
