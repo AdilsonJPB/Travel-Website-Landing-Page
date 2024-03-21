@@ -3,6 +3,14 @@
 @import url(/assets/css/header.css);
 @import url(/assets/css/main.css);
 
+:root {
+    --cor-cinza: #5E6282;
+    --font-opensans: "Open Sans", sans-serif;
+    --font-poppins: "Poppins", sans-serif;
+    --font-volkhov: "Volkhov", serif;
+}
+
+
 *{
     padding: 0;
     margin: 0;
@@ -11,9 +19,8 @@
 
 body{
     background-color: white;
-    background-image: url(/assets/image/Decore.png);
+    /* background-image: url(/assets/image/Decore.png); */
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
-    padding: 2% 10%;
 }
