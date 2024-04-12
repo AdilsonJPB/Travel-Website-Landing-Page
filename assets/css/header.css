@@ -13,11 +13,21 @@
 .navegacao__links {
     gap: 30px;
     font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
     list-style: none;
+}
+
+.navegacao__links:hover {
+    color: var(--cor-cinza);
 }
 
 .destaque {
     border: 1px solid #000000;
     border-radius: 5px;
     padding: 10px 20px;
+}
+
+.destaque:hover {
+    border: 1px solid var(--cor-cinza);
+    border-radius: 5px;
 }

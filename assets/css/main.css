@@ -59,15 +59,21 @@
     color: #FFFFFF;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     background-color: #F1A501;
+}
+
+.play_demo:hover {
+    color: var(--cor-cinza);
 }
 
 .play_demo {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -193,9 +199,7 @@
 
 .top-selling__destinos {
     display: flex;
+    cursor: pointer;
     justify-content: center;
     padding-top: 70px;
 }
-
-
-\\ Easy and Fast
